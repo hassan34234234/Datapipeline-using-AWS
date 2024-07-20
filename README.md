@@ -12,31 +12,46 @@ The **AWS Data Engineering Pipeline for Superstore** project demonstrates an end
 
 This project focuses on data from a Superstore dataset, which includes sales, customer, and product information.
 
-## Project Directory Structure
+### **`terraform/` Directory**
+
+Contains Terraform configurations and state files used to provision AWS resources.
+
+- **`main.tf`**: Main Terraform configuration for setting up AWS infrastructure.
+- **`glue_catalog.tf`**: Terraform configuration for setting up the AWS Glue Catalog database.
+- **`fetch_athena_data.py`**: Python script for querying data from Athena (if applicable).
+- **`terraform.tfstate`**: Terraform state file tracking the current state of your infrastructure.
+- **`terraform.tfstate.backup`**: Backup of the Terraform state file.
+- **`.terraform/`**: Directory created by Terraform containing plugin binaries and workspace data.
+- **`.terraform.lock.hcl`**: Lock file to ensure consistent dependency versions.
+
+### **`Python-script/` Directory**
+
+Contains Python scripts used for data processing.
+
+- **`upload_to_s3.py`**: Script to download data from Kaggle and upload it to the S3 bucket.
+- **`requirements.txt`**: List of Python dependencies required by `upload_to_s3.py`.
+
+### **`data/` Directory**
+
+Contains data files used in the project.
+
+- **`Superstore.csv`**: Sample data file for testing or reference.
+- **`archive.zip`**: Archive of data files.
+
+### **`Power-BI-Dashboard/` Directory**
+
+Contains files related to Power BI dashboards.
+
+- **`PowerBI.pbit`**: Power BI template file for creating dashboards and visualizations.
+
+### **`README.md`**
+
+The main documentation file that provides an overview of the project, setup instructions, and usage guidelines.
+
+### **`LICENSE`**
+
+This file contains the license information for the project. It is separate from other project files.
 
 
 
-AWS-Data-Engineering-Pipeline-For-Superstore/
-│
-├── terraform/
-│ ├── main.tf
-│ ├── glue_catalog.tf
-│ ├── fetch_athena_data.py
-│ ├── terraform.tfstate
-│ ├── terraform.tfstate.backup
-│ ├── .terraform/
-│ └── .terraform.lock.hcl
-│
-├── Python-script/
-│ ├── upload_to_s3.py
-│ └── requirements.txt
-│
-├── data/
-│ ├── Superstore.csv
-│ └── archive.zip
-│
-├── Power-BI-Dashboard/
-│ └── PowerBI.pbit
-│
-├── README.md
-└── LICENSE
+
