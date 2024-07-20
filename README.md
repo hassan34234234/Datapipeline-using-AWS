@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **AWS DataPipeline for project demonstrates an end-to-end data engineering workflow using AWS services and tools. This pipeline covers the following components:
+The AWS DataPipeline for project demonstrates an end-to-end data engineering workflow using AWS services and tools. This pipeline covers the following components:
 
 - **S3 Bucket Creation:** Managed with Terraform.
 - **AWS Glue Catalog Database:** Created to manage metadata.
