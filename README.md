@@ -31,10 +31,28 @@ This project focuses on data from a Superstore dataset, which includes sales, cu
 
 - **Dashboard File:** Contains interactive visualizations based on the transformed data.
 
-## Setup
+AWS-Data-Engineering-Pipeline-For-Superstore/
+│
+├── terraform/
+│   ├── main.tf
+│   ├── glue_catalog.tf
+│   ├── fetch_athena_data.py
+│   ├── terraform.tfstate
+│   ├── terraform.tfstate.backup
+│   ├── .terraform/
+│   └── .terraform.lock.hcl
+│
+├── Python-script/
+│   ├── upload_to_s3.py
+│   └── requirements.txt
+│
+├── data/
+│   ├── Superstore.csv
+│   └── archive.zip
+│
+├── Power-BI-Dashboard/
+│   └── PowerBI.pbit
+│
+├── README.md
+└── LICENSE
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
