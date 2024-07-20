@@ -16,3 +16,27 @@ This project focuses on data from a Superstore dataset, which includes sales, cu
 
 
 
+AWS-Data-Engineering-Pipeline-For-Superstore/
+│
+├── terraform/
+│ ├── main.tf
+│ ├── glue_catalog.tf
+│ ├── fetch_athena_data.py
+│ ├── terraform.tfstate
+│ ├── terraform.tfstate.backup
+│ ├── .terraform/
+│ └── .terraform.lock.hcl
+│
+├── Python-script/
+│ ├── upload_to_s3.py
+│ └── requirements.txt
+│
+├── data/
+│ ├── Superstore.csv
+│ └── archive.zip
+│
+├── Power-BI-Dashboard/
+│ └── PowerBI.pbit
+│
+├── README.md
+└── LICENSE
