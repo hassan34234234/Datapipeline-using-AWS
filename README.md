@@ -44,13 +44,6 @@ Contains files related to Power BI dashboards.
 
 - **`PowerBI.pbit`**: Power BI template file for creating dashboards and visualizations.
 
-### **`README.md`**
-
-The main documentation file that provides an overview of the project, setup instructions, and usage guidelines.
-
-### **`LICENSE`**
-
-This file contains the license information for the project. It is separate from other project files.
 
 
 
