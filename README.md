@@ -1,4 +1,4 @@
-# Created a data pipeline using AWS 
+# Created a Data Pipeline using AWS 
 
 ## Overview
 
